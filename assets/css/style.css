@@ -10,13 +10,13 @@ body {
     overflow-x: hidden ;
     }
     .header {
-        height: 100vh;
+        height: 20vh;
         display: flex;
         align-items: center;
         color: #fff;
     }
     .content {
-        max-width: 49rem;
+        max-width: 12rem;
         padding-left: 1rem;
         padding-right: 1rem;
         margin: auto;
@@ -27,7 +27,7 @@ body {
         top: 0;
         left: 0;
         width: 100%;
-        height: 100vh;
+        height: 50vh;
         overflow: hidden;
     }
     .header-video video{
@@ -37,17 +37,17 @@ body {
     }
     .header-overlay{
         height: 100vh;
-        width: 100vw;
-        position: static;
+        width: 50vw;
+        position: absolute;
         top: 0;
         left: 0;
         background: #303952;
         z-index: 2;
-        opacity: .10;
+        opacity: .01;
 
     }
     .header-content {
-        z-index: 2;
+        z-index: 3;
        
     }
     .header-content h1 {
@@ -63,7 +63,7 @@ body {
         font-family: 'Press Start 2P', cursive;
     }
     .header-content img {
-        margin-top: 2%;
+        margin-top: 10rem;
         display: block;
         width: 400px;
         height: auto;
@@ -78,7 +78,7 @@ body {
 
         font-size: 1.5rem;
        
-        margin: 2%;
+        margin: 1%;
 
     }
     .tarjeta {
@@ -87,8 +87,8 @@ body {
     
     }
     .menu {
-        position: absolute;
-       margin-top: 25rem;
+        
+       margin-top: 40rem;
         font-family: 'Press Start 2P', cursive;
         align-items:end;
       z-index: 2;
