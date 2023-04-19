@@ -8,17 +8,17 @@ fetch(url)
         
             contenido.innerHTML +=  `
             <div class="tarjeta">
-            <div class="card" style="width: 18rem; ">
+            <div class="card" style="width: 10rem; ">
             <img src="${item.img}" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">${item.name}</h5>
               <p class="card-text">${item.level}</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+             
             </div>
             </div>
             </div>
             `
             if (item.id == 3) {break;}
         }
-    
+       // <a href="#" class="btn btn-primary">Go somewhere</a> 
 })
