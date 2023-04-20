@@ -11,7 +11,7 @@ fetch(url)
             <div class="card" style="width: 10rem; ">
             <img src="${item.img}" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">${item.name}</h5>
+              <h7 class="card-title">${item.name}</h7>
               <p class="card-text">${item.level}</p>
              
             </div>
@@ -22,3 +22,4 @@ fetch(url)
         }
        // <a href="#" class="btn btn-primary">Go somewhere</a> 
 })
+

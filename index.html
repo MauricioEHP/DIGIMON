@@ -12,22 +12,22 @@
 <title>Digimon</title> 
 </head> 
 <body> 
-<header class="header content col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+<header class="header content ">
     <div class="header-video">
             <video src="assets/img/fondo.mp4" autoplay muted loop ></video>
 
     </div>
 <div class="header-overlay "></div>
 
-<div class="header-content col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+<div class="header-content col-xs-12 col-sm-10 col-md-10 col-lg-3 col-xl-3">
 <img src="assets/img/digimon-logo.png">
 
 </div>
 
-<div class="menu col-xs-10 col-sm-10 col-md-10 col-lg-3 col-xl-3">
+<div class="menu">
 <nav class="navbar ">
     <!-- Navbar content -->
-    <nav class="navbar navbar-expand-lg ">
+    <nav class="navbar navbar-expand-lg "> 
         <div class="container-fluid">
             <a class="navbar-brand" href=""></a>
             <img src="assets/img/digivicelogo1.png" alt="" width="100" height="auto" class="d-inline-block align-text-top" href="Index.html">
@@ -39,12 +39,18 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="C:\Digimon\todos.html">Todos</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Nombre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="C:\Users\mauri\OneDrive\Documentos\Curso fullstack\Modulo2\M2-Clase2\Restaurant Mauricio Henríquez\comuniquemonos.html">Nivel</a>
-                    </li>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nivel</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" value="fre" href="#">Fresh</a></li>
+                          <li><a class="dropdown-item" value="tra" href="#">In Training</a></li>
+                          <li><a class="dropdown-item" value="roo" href="#">Rookie</a></li>
+                          <li><a class="dropdown-item" value="cha" href="#">Champion</a></li>
+                          <li><a class="dropdown-item" value="arm" href="#">Armor</a></li>
+                          <li><a class="dropdown-item" value="ult" href="#">Ultimate</a></li>
+                          <li><a class="dropdown-item" value="meg" href="#">Mega</a></li>
+                        </ul>
+                      </li>
                     </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" size="" >
