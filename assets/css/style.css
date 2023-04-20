@@ -84,7 +84,8 @@ body {
         }
     }
     .contenido {
-
+        cursor: pointer;
+       
         font-size: 0.8rem;
         font-family: 'Press Start 2P', cursive;
         margin: 2%;
@@ -93,9 +94,15 @@ body {
     }
    
     .tarjeta {
+        margin-top: 3%;
         margin: 2%;
         display: inline-block;
+        transition: 2s;
     
+    }
+    .tarjeta:hover{
+    transform: scale(1.5,1.5);
+    transition: 2s;
     }
     .menu {
         
