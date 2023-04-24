@@ -44,14 +44,14 @@ body {
 
     }
     .header-overlay{
-        height: 100vh;
+        height: 12rem;
         width: 50vw;
-        position: absolute;
+        align-items: center;
         top: 0;
         left: 0;
         background: #303952;
         z-index: 2;
-        opacity: .01;
+       /* opacity: .01;*/
 
     }
     .header-content {
@@ -72,9 +72,10 @@ body {
     }
     .header-content img {
         align-items: center;
-        margin-top: 10rem;
-       
-        width: 300px;
+        margin-top: 5rem;
+       /*padding-left: 20%;*/
+       /*padding-right: 20%;*/
+        width: 20rem;
         height: auto;
     }
     @media (max-width: 960px) {
@@ -105,12 +106,26 @@ body {
     transition: 2s;
     }
     .menu {
-        
+       
        margin-top: 30rem;
         font-family: 'Press Start 2P', cursive;
         align-items:end;
       z-index: 2;
           
+    }
+    a {
+        color:coral;
+    }
+    .dropdown {
+        font-family: 'Press Start 2P', cursive;
+        margin-top: 3rem;
+    }
+    main {
+        z-index: 3;
+        background-color: aqua;
+    }
+    #segundacaja {
+        background-color: blue;
     }
     
     /*pantalla xl*/

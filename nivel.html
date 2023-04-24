@@ -17,11 +17,31 @@
         <div class="header-content col-xs-12 col-sm-10 col-md-10 col-lg-3 col-xl-3">
             <img src="assets/img/digimon-logo.png">
         </div>
+       
+        <form id="nuevo" action="">
+        <div class="dropdown">
+                <select id="levels" onchange="niveles();" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <option selected>Selecciona un Nivel</option>
+                <option value="fresh">Fresh</option>
+                <option value="intraining">In Training</option>
+                <option value="rookie">Rookie</option>
+                <option value="champion">Champion</option>
+                <option value="armor">Armor</option>
+                <option value="ultimate">Ultimate</option>
+                <option value="mega">Mega</option>
+                </select>
+         
+          </div>
+          <button id="btnFetch">Lanzar</button>
 
+        </form>
+        
     </header>
     
- 
-    <div class="contenido">
+    <div id="leveles">
+        
+    </div>
+   
         
     </div>
    
