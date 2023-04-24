@@ -6,7 +6,7 @@ var main =document.getElementsByTagName("main")
 var scajaPrincipal = document.getElementById("cajaPrincipal")
 
 function insertaF(){
-scajaPrincipal.style.backgroundImage = "url('C:\Digimon\assets\img\digiworld.png')";
+scajaPrincipal.style.backgroundImage = "url('https://github.com/MauricioEHP/DIGIMON/blob/main/assets/img/digiworld.png')";
 
 }
 
