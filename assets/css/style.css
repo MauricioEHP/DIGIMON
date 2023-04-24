@@ -73,6 +73,7 @@ body {
     .header-content img {
         align-items: center;
         margin-top: 5rem;
+        max-width: 400px;
        /*padding-left: 20%;*/
        /*padding-right: 20%;*/
         width: 20rem;
